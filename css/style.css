@@ -5,8 +5,7 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-
-.container {
+.contenitore {
     width: 100%;
     margin: auto;
 }
@@ -14,8 +13,13 @@
 .box {
     height: 100vh;
     width: 100%;
-    margin: 10px;
-    text-align: center;
+    position: relative;
+}
+
+.struttura {
+    position: absolute;
+    right: 25%;
+    left: 25%;
 }
 
 #primo {
@@ -23,19 +27,22 @@
 }
 
 .scarpe img {
-    width: 50%;
-    height: 50%;
+    height: 100%;
+    width: 100%;
 }
 
+    
 .scritta {
     width: 60%;
+    position: relative;
+    left: 20%;
 }
 
 .scritta.gialla {
     color: yellow;
 }
 
-/* #secondo {
+#secondo {
     background-color: green;
 }
 
@@ -46,4 +53,4 @@
 
 .scritta.verde {
     color: green;
-} */
+}
