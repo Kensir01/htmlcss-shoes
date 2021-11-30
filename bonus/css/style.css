@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.contenitore {
+    width: 100%;
+    margin: auto;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.struttura {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+}
+
+#primo {
+    background-color: red;
+}
+
+.scarpe img {
+    height: 100%;
+    width: 100%;
+}
+
+    
+.scritta {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.scritta.gialla {
+    color: yellow;
+}
+
+#secondo {
+    background-color: green;
+}
+
+
+#terzo {
+    background-color: yellow;
+}
+
+.scritta.verde {
+    color: green;
+}
